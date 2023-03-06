@@ -65,9 +65,9 @@ public class Diccionario {
         }
     }
 
-    public static void main(String[] args) {
+    public void lector(){
         Diccionario diccionario = new Diccionario();
-        diccionario.leerDiccionario("C:\\Users\\jkort\\OneDrive\\Escritorio\\palabras.csv");
+        diccionario.leerDiccionario("palabras.csv");
         diccionario.imprimirTablaHash();
     }
 }
